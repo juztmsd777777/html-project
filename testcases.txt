@@ -1,0 +1,24 @@
+TEST CASE 1:
+Username: admin
+Password: 1234
+Expected Output: Login Successful
+
+TEST CASE 2:
+Username: admin
+Password: wrong
+Expected Output: Invalid Credentials
+
+TEST CASE 3:
+Username: user
+Password: 1234
+Expected Output: Invalid Credentials
+
+TEST CASE 4:
+Username: Empty
+Password: 1234
+Expected Output: Fields cannot be empty
+
+TEST CASE 5:
+Username: admin
+Password: Empty
+Expected Output: Fields cannot be empty
